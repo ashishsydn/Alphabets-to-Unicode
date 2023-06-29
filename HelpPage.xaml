@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nepali_Typing.HelpPage"
+             Title="Help">
+    <ScrollView>
+    <VerticalStackLayout Margin="15">
+        
+        <Label 
+            Text="To use the converter, type your text in English in the first box. Make sure that it is phonetically correct. So pay attention to the spelling, making sure that the English words that you type give out a Nepali meaning when pronounced.&#10;&#10;There are two text boxes: &#10;&#10;&#10;In the first box, you can type words that you want to convert."
+             />
+
+<Image Source="first_box.png" />
+
+        <Label 
+            Text="The converted text is instantly seen in the large box below it" />
+            <Image Source="converted_text.png" />
+            
+        <Label 
+            Text="You can copy and paste the Nepali text using the Copy button or by doing it manually." />
+        <Image Source="copy_button.png" />
+
+        <Label Text="Producing different characters:&#10;&#10;
+        Use capital and small letters to produce different results. For example:&#10;&#10;
+        sa gives स&#10;
+        Sa gives ष&#10;
+        sha gives श​&#10;
+        ta gives त&#10;
+        Ta gives ट&#10;
+        tha gives थ&#10;
+        Tha gives &#10;
+        Na gives ण​&#10;
+        and so on​&#10;&#10;You can copy and paste the text in other applications. Use the text everywhere. You can use the Devanagari text in emails, SMS messages, social networks and other apps.
+        &#10;&#10;They are supported out of the box by all modern apps and smart devices. No special fonts or settings need to be turned on for it to work. If you need help and support, don't hesitate to contact:
+         &#10;&#10;admin@nepali-unicode.com&#10;&#10;https://www.nepali-unicode.com" />
+        
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

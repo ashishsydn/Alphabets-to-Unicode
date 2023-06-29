@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Nepali_Typing.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Nepali_Typing"
+    Shell.FlyoutBehavior="Flyout">
+
+    <ShellContent
+        Title="Nepali Typing"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+   
+    <ShellContent Title="Help"
+        Route="home" 
+        ContentTemplate="{DataTemplate local:HelpPage}" />
+    <ShellContent Title="About"
+        Route="about" 
+        ContentTemplate="{DataTemplate local:AboutPage}" />
+    <MenuItem Text="Website"
+        Command="{Binding HelpCommand}"
+        CommandParameter="https://www.nepali-unicode.com" />
+    <MenuItem Text="Rate App"
+        Command="{Binding HelpCommand}"
+        CommandParameter="https://www.nepali-unicode.com" />
+    
+</Shell>

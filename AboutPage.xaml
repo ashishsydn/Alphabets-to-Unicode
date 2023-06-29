@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nepali_Typing.AboutPage"
+             Title="About">
+    <VerticalStackLayout Margin="15">
+        <Label Text="This is a simple tool to convert normal English text to nepali even when your are offline. The conversion is done based on the pronunciation. You can use the converted text everywhere. Copy and paste it in other /n applications.&#10;&#10;Copyright © 2023 Nepali-Unicode.com&#10;&#10;All Rights Reserved&#10;&#10;This product is protected by copyright and distributed under licenses restricting copying, distribution and decompilation.&#10;&#10;For support: admin@nepali-unicode.com"
+               />
+    </VerticalStackLayout>
+</ContentPage>
